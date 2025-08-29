@@ -16,10 +16,11 @@ This project addresses the challenge of optimal price determination in the used 
 
 ## 📁 Repository Structure
 
-*   `data/` - Contains the raw and processed datasets. (Note: Original data files are not included due to size; source is provided).
-*   `notebooks/` - Contains the Jupyter Notebooks for exploratory data analysis and modeling.
-*   `src/` - Contains reusable Python scripts for data cleaning, feature engineering, and utility functions.
-*   `output/` - Contains generated output, including figures, reports, and final model results.
+*   `notebooks/` - Contains the end-to-end Jupyter Notebook (`Automotive_market_analysis.ipynb`) performing the complete data analysis, from data cleaning and exploration to model building and evaluation.
+*   `output/` - Contains final deliverables and results:
+    *   `auto_sales_performance.pbix` - The interactive Power BI dashboard file.
+    *   `cars_valuation_tool.xlsx` - The Excel file with price calculator and key tables for inventory strategies.
+*   `data/` - Contains the raw data and a document outlining the data sources and descriptions.
 
 ## 📊 Key Findings and Conclusions
 *   **Model Performance:** While both the Clasical and Random Forest Regressor achieved good R² scores and low RMSE, however the solution goes beyond predicting the "perfect price". It is crucial to understand that this model does not compete with MMR, instead, it complements and refines it. The model systematically reduces the gap between the MMR benchmark and the final sale price, an achievement that directly translates into enhanced pricing precision and margin optimization.
